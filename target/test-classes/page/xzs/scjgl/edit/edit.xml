@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="收藏夹管理编辑">
+	<locator name="小助手按钮" type="linkText" value="小助手"></locator>
+	<locator name="收藏夹管理按钮" type="cssSelector" value="a[caption='收藏夹管理']"></locator>
+	<locator name="收藏夹管理内联框架" type="name" value="tabContent_收藏夹管理"></locator>
+	<locator name="编辑按钮" type="xpath" value="//div[@rownum='1']/div[9]"></locator>
+	<locator name="收藏目录名称输入框" type="cssSelector" value="input[caption='收藏目录名称']"></locator>
+    <locator name="收藏目录修改内联框架" type="xpath" value="//body[@class='warp']/div[9]/div[2]/div/div/div/iframe"></locator>
+    <locator name="更新按钮" type="cssSelector" value="div[title='更新']"></locator>
+    
+    <locator name="保存按钮" type="cssSelector" value="div[title='保存']"></locator>
+    <locator name="收藏成功提示" type="xpath" value="//body[@class='warp']/div[11]/div[2]/div/div/div/div"></locator>
+</page>
+
+	

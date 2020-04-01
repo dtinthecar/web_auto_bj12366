@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="业务类别查询页面">
+	<locator name="综合查询" type="linkText" value="综合查询"></locator>
+	<locator name="业务记录查询" type="linkText" value="业务记录查询"></locator>
+	<locator name="业务记录查询内联框架" type="name" value="tabContent_业务记录查询"></locator>
+	<locator name="业务类别选择框" type="cssSelector" value="input[name='caseywlb']"></locator>
+	<locator name="业务类别选择列表" type="className" value="swordselect-list-item"></locator>
+	<locator name="个税汇缴类型选择框" type="cssSelector" value="input[name='caseywlx_select']"></locator>
+	<locator name="查询按钮" type="cssSelector" value="div[title='查询']"></locator>
+	<locator name="个税汇缴类型选择列表" type="className" value="swordselect-list-item"></locator>
+	<locator name="查询结果" type="xpath" value="//div[@row='true']/div[6]"></locator>
+</page>
+
+	

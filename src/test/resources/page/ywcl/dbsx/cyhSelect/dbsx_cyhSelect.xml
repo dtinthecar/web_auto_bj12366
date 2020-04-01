@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="待办事项常用语选择页面">
+	<locator name="业务处理" type="cssSelector" value="a[code='20001']"></locator>
+	<locator name="待办事项" type="cssSelector" value="a[caption='待办事项']"></locator>
+	<locator name="待办事项内联框架" type="name" value="tabContent_待办事项"></locator>
+	<locator name="查询按钮" type="cssSelector" value="div[btnname='查询']"></locator>
+	<locator name="当前环节列表" type="xpath" value="//div[@row='true']/div[10]"></locator>
+	<locator name="处理列表" type="xpath" value="//div[@row='true']/div[23]"></locator>
+	<locator name="处理详情内联框架" type="cssSelector" value="iframe[frameborder='no']"></locator>
+	<locator name="签收按钮" type="cssSelector" value="div[btnname='签收']"></locator>
+	<locator name="常用语按钮" type="xpath" value="//*[@id='clyj']/div[7]/div[8]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[2]/div/a[1]"></locator>
+	<locator name="常用语内联框架" type="xpath" value="//body[@class='warp']/div[9]/div[2]/div/div/div/iframe"></locator>
+	<locator name="常用语勾选框列表" type="xpath" value="//div[@row='true']/div/input"></locator>
+	<locator name="常用语内容列表" type="xpath" value="//div[@row='true']/div[6]"></locator>
+	<locator name="确定按钮" type="cssSelector" value="div[title='确定']"></locator>
+	<locator name="处理意见输入框" type="cssSelector" value="textarea[name='caseclyj']"></locator>
+</page>
+
+	

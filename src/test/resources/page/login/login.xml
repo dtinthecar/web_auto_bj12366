@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="登陆页面">
+	<locator name="账号输入框" type="id" value="dm"></locator>
+	<locator name="密码输入框" type="id" value="pwd"></locator>
+	<locator name="登陆按钮" type="id" value="denglu"></locator>
+	<locator name="提示语" type="className" value="ym-content"></locator>
+</page>
+
+	

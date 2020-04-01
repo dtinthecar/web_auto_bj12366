@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="文件上传">
+	<locator name="业务处理" type="cssSelector" value="a[code='20001']"></locator>
+	<locator name="北京中心热点问题上报" type="cssSelector" value="a[caption='北京中心热点问题上报']"></locator>
+	<locator name="北京中心热点问题上报内联框架" type="name" value="tabContent_北京中心热点问题上报"></locator>
+	<locator name="查询按钮" type="cssSelector" value="div[title='查询']"></locator>
+	<locator name="查看按钮" type="xpath" value="//div[@rownum='1']/div[8]"></locator>
+	<locator name="上报内联框架" type="xpath" value="//div[@class='ym-body']/iframe"></locator>
+	<locator name="上报按钮" type="xpath" value="//div[@rownum='1']/div[9]"></locator>
+	<locator name="附件内联框架" type="xpath" value="//body[@class='warp']/div[9]/div[2]/div/div/div/iframe"></locator>
+	<locator name="添加附件内联框架" type="xpath" value="//body[@class='warp']/div[11]/div[2]/div/div/div/iframe"></locator>
+	<locator name="附件上传" type="id" value="fjsc"></locator>
+	<locator name="上传附件输入框" type="name" value="filename"></locator>
+</page>
+
+	

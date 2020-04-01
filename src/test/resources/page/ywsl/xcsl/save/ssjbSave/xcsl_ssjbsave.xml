@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="现场受理涉税举报保存页面">
+	<locator name="现场受理按钮" type="cssSelector" value="a[caption='现场受理']"></locator>
+	<locator name="现场受理内联框架" type="id" value="ifm_l"></locator>
+	<locator name="附件上传按钮" type="xpath" value="/html/body/div[5]/table/tbody/tr[48]/td/a[8]"></locator>
+	<locator name="附件上传内联框架" type="xpath" value="//body[@class='ccall']/div[7]/div[2]/div/div/div/iframe"></locator>
+	<locator name="附件上传" type="name" value="filename"></locator>
+	<locator name="开始上传按钮" type="id" value="idBtnupload"></locator>
+	<locator name="来访时间输入框" type="cssSelector" value="input[name='casethkssj']"></locator>
+	<locator name="单位类型列表" type="cssSelector" value="input[name='caseywdwlx']"></locator>
+	<locator name="一级问题归属地选择框" type="cssSelector" value="input[name='casewtfsd1']"></locator>
+	<locator name="二级问题归属地选择框" type="cssSelector" value="input[name='casewtfsd2']"></locator>
+	<locator name="三级问题归属地选择框" type="cssSelector" value="input[name='casewtfsd3']"></locator>
+	<locator name="问题归属地列表" type="className" value="swordselect-list-item"></locator>
+	<locator name="姓名" type="cssSelector" value="input[name='caseldrxm']"></locator>
+	<locator name="联系电话" type="cssSelector" value="input[name='caseldrdh']"></locator>
+	<locator name="纳税人识别号" type="cssSelector" value="input[name='casekhbh1']"></locator>
+	<locator name="短信号码" type="cssSelector" value="input[name='casedxhm']"></locator>
+	<locator name="传真号码" type="cssSelector" value="input[name='caseczhm']"></locator>
+	<locator name="联系地址" type="cssSelector" value="input[name='caseldrdz']"></locator>
+	<locator name="身份证号码" type="cssSelector" value="input[name='caseldrsfz']"></locator>
+	<locator name="工作单位" type="cssSelector" value="input[name='caseldrdw']"></locator>
+	<locator name="电子邮箱" type="cssSelector" value="input[name='caseldrdzyx']"></locator>
+	<locator name="业务类别列表" type="cssSelector" value="input[name='caseywlb']"></locator>
+	<locator name="纳税人评价等级列表" type="cssSelector" value="input[name='nsrpjdj']"></locator>
+	<locator name="标签按钮" type="id" value="rdlxxz"></locator>
+	<locator name="第一个标签下拉按钮" type="xpath" value="//*[@id='jggltree']/div/div/div/div/div[1]/span/span[1]"></locator>
+	<locator name="第一个下拉选项" type="xpath" value="//*[@id='jggltree']/div/div/div/div/div[1]/div/div[1]/span/span[2]"></locator>
+	<locator name="标签关闭按钮" type="cssSelector" value="div[title='关闭']"></locator>
+	<locator name="问题类型按钮" type="xpath" value="//*[@id='caseywlxzx']/td/div[4]/img"></locator>
+	<locator name="问题类型内联框架" type="id" value="SwordTab_iframe_0"></locator>
+	<locator name="问题类型选择框" type="xpath" value="//*[@id='jggltree']/div/div/div/div/div[1]/span/span[2]"></locator>
+	<locator name="问题类型确定按钮" type="cssSelector" value="div[title='确定']"></locator>
+	<locator name="反映内容输入框" type="cssSelector" value="textarea[name='caseywnr']"></locator>
+	<locator name="答复内容输入框" type="cssSelector" value="textarea[name='casedfnr']"></locator>
+	<locator name="紧急程度选择框" type="cssSelector" value="input[name='casejjcd']"></locator>
+	<locator name="紧急程度列表" type="className" value="swordselect-list-item"></locator>
+	<locator name="保存按钮" type="cssSelector" value="div[title='保存']"></locator>
+	<locator name="信息下拉按钮" type="id" value="xq1"></locator>
+	
+	
+	<locator name="涉税举报类型输入框" type="cssSelector" value="input[name='casebjbbtsrxm']"></locator>
+	<locator name="涉税举报类型列表" type="className" value="swordselect-list-item"></locator>
+	<locator name="举报二级分类按钮" type="xpath" value="//*[@id='casessjbejflid']/td/div[4]/img"></locator>
+	<locator name="举报二级分类勾选框列表1" type="cssSelector" value="input[name='jbejflcheck']"></locator>
+	<locator name="举报二级分类1级下拉按钮" type="xpath" value="//*[@id='jggltree']/div/div/div/div/div[1]/span/span[1]"></locator>
+	<locator name="举报二级分类2级下拉按钮" type="xpath" value="//*[@id='jggltree']/div/div/div/div/div[1]/div/div[1]/span/span[1]"></locator>
+	<locator name="举报二级分类3级勾选框" type="xpath" value="//*[@id='jggltree']/div/div/div/div/div[1]/div/div[1]/div/div[1]/span/span[2]"></locator>
+	<locator name="举报二级分类确定按钮" type="cssSelector" value="div[title='确定']"></locator>
+    <locator name="举报对象" type="cssSelector" value="input[name='bjblx']"></locator>
+
+	<locator name="被检举人姓名" type="cssSelector" value="input[name='casebjbbtsrxm']"></locator>
+	<locator name="人员级别输入框" type="cssSelector" value="input[name='casebjbrxzjb']"></locator>
+	<locator name="人员级别列表" type="className" value="swordselect-list-item"></locator>
+	<locator name="岗位" type="cssSelector" value="input[name='casebjbrzw']"></locator>
+	<locator name="被举报机关名称" type="cssSelector" value="input[name='casebjbjgmc']"></locator>
+	<locator name="机关级别输入框" type="className" value="swordselect-list-item"></locator>
+	<locator name="机关级别列表" type="cssSelector" value="input[name='casebjbjgxzjb']"></locator>
+	<locator name="被检举人住所或单位" type="cssSelector" value="input[name='casebjbbtsrdw']"></locator>
+	<locator name="是否有证据资料列表" type="cssSelector" value="input[name='casejjrsfyzjcl']"></locator>
+	<locator name="是否愿意提供资料列表" type="cssSelector" value="input[name='casejjrsfyytgcl']"></locator>
+	<locator name="是否已申请行政复议" type="cssSelector" value="input[name='casesfsqxzfy']"></locator>
+	<locator name="是否已提起行政诉讼" type="cssSelector" value="input[name='casesftqxzss']"></locator>
+	<locator name="是否曾提出信访或举报" type="cssSelector" value="input[name='casesftcxfjb']"></locator>
+	<locator name="向何单位提出" type="cssSelector" value="input[name='casejbxhdwtc']"></locator>
+	<locator name="信访或举报简要结果" type="cssSelector" value="input[name='casexfjbjyjg']"></locator>
+	
+	<locator name="保存提示框" type="className" value="ym-content"></locator>
+	<locator name="确认按钮" type="id" value="ymPrompt_btn_0"></locator>
+</page>
+
+	

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Xcsl_CxSave_Test">
+		<classes>
+			<class name="testcase.ywsl.xcsl.save.cxSave.CxSaveTester" />
+		</classes>
+	</test>
+	<test name="Xcsl_ZxSave_Test">
+		<classes>
+			<class name="testcase.ywsl.xcsl.save.zxSave.ZxSaveTester" />
+		</classes>
+	</test>
+	<test name="Xcsl_TsSave_Test">
+		<classes>
+			<class name="testcase.ywsl.xcsl.save.tsSave.TsSaveTester" />
+		</classes>
+	</test>
+
+</suite> 

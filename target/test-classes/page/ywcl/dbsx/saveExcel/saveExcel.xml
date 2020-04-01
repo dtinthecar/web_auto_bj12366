@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="另存为Excel">
+	<locator name="业务处理" type="cssSelector" value="a[code='20001']"></locator>
+	<locator name="待办事项" type="cssSelector" value="a[caption='待办事项']"></locator>
+	<locator name="待办事项内联框架" type="name" value="tabContent_待办事项"></locator>
+	<locator name="另存为excel按钮" type="cssSelector" value="div[title='另存为EXCEL']"></locator>
+	
+</page>
+
+	

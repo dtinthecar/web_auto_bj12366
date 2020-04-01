@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="新建用户保存页面">
+	<locator name="系统管理" type="linkText" value="系统管理"></locator>
+	<locator name="用户管理" type="xpath" value="//*[@id='1000']/div/a[2]"></locator>
+	<locator name="子用户管理" type="xpath" value="//*[@id='1000']/div/div[2]/a[2]"></locator>
+	<locator name="子用户管理内联框架" type="name" value="tabContent_用户管理"></locator>
+	<locator name="新建按钮" type="xpath" value="//*[@id='ie6_wid']/div[1]/div/div[11]/div[3]/div[1]/div[2]"></locator>
+    <locator name="新建用户页面内联框架" type="xpath" value="//body[@class='warp']/div[9]/div[2]/div/div/div/iframe"></locator>
+    <locator name="部门名称选择框" type="cssSelector" value="input[rule='must$customFunction;zrarcheckRylb()']"></locator>
+    <locator name="部门名称列表" type="xpath" value="/html/body/div[5]/div[1]/div"></locator>
+    <locator name="用户账号输入框" type="cssSelector" value="input[caption='用户账号']"></locator>
+    <locator name="用户名称输入框" type="cssSelector" value="input[caption='用户名称']"></locator>
+    <locator name="密码输入框" type="cssSelector" value="input[caption='密码(默认Aa123456)']"></locator>
+    <locator name="密码确认输入框" type="cssSelector" value="input[caption='密码确认']"></locator>
+    <locator name="性别选择框" type="cssSelector" value="input[rule='must']"></locator>
+    <locator name="性别列表" type="xpath" value="/html/body/div[5]/div[1]"></locator>
+    <locator name="电子邮箱输入框" type="cssSelector" value="input[caption='电子邮箱']"></locator>
+    <locator name="手机号码输入框" type="cssSelector" value="input[caption='手机号码']"></locator>
+    <locator name="电话号码输入框" type="cssSelector" value="input[caption='电话号码']"></locator>
+    <locator name="知识库检索范围列表" type="xpath" value="//*[@id='ie6_wid']/div/div[1]/div[17]/div[3]/div[2]/div/div/div/div[10]/div/table/tbody/tr/td[2]/div/div/div/div"></locator>
+    <locator name="人员选择输入框" type="cssSelector" value="input[rule='must_customFunction;zrarcheckRylb()']"></locator>
+    <locator name="人员选择列表" type="xpath" value="/html/body/div[5]/div[1]/div"></locator>
+    <locator name="备注输入框" type="cssSelector" value="textarea[name='bz']"></locator>
+    <locator name="关闭按钮" type="xpath" value="//*[@id='ie6_wid']/div/div[3]/table/tbody/tr/td[2]/div/div"></locator>
+    <locator name="保存按钮" type="xpath" value="//*[@id='ie6_wid']/div/div[3]/table/tbody/tr/td[1]/div/div[2]"></locator>
+    <locator name="保存成功提示框" type="xpath" value="//*[@id='ym-ml']/div/div/div/div"></locator>
+    <locator name="部门提示框" type="id" value="cont"></locator>
+</page>
+
+	

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="是否自动应答">
+	<locator name="系统管理" type="linkText" value="系统管理"></locator>
+	<locator name="参数管理" type="linkText" value="参数管理"></locator>
+	<locator name="参数设置" type="linkText" value="参数设置"></locator>
+	<locator name="参数设置内联框架" type="name" value="tabContent_参数设置"></locator>
+	<locator name="系统参数按钮" type="xpath" value="//*[@id='xtcstree']/div/div/div[1]/div/div[2]/span/span[1]"></locator>
+    <locator name="通讯设置按钮" type="xpath" value="//*[@id='xtcstree']/div/div/div[1]/div/div[2]/div/div[1]/span/span[1]"></locator>
+    <locator name="是否自动应答按钮" type="xpath" value="//*[@caption='是否自动应答']/span/span[3]"></locator>
+    <locator name="参数信息内联框架" type="id" value="viewView"></locator>
+    <locator name="参数值输入框" type="cssSelector" value="input[caption='参数值']"></locator>
+    <locator name="保存按钮" type="cssSelector" value="div[title='保存']"></locator>
+    <locator name="保存成功提示框" type="xpath" value="//*[@id='ym-ml']/div/div/div/div"></locator>
+    <locator name="参数未输入提示语" type="id" value="cont"></locator>
+    
+</page>
+
+	

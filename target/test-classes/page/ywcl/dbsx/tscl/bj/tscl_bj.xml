@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="投诉办结页面">
+	<locator name="业务处理" type="cssSelector" value="a[code='20001']"></locator>
+	<locator name="待办事项" type="cssSelector" value="a[caption='待办事项']"></locator>
+	<locator name="待办事项内联框架" type="name" value="tabContent_待办事项"></locator>
+	<locator name="业务类别选择框" type="cssSelector" value="input[dataname='YWCL_CASE_CASECLFS_LIST']"></locator>
+	<locator name="业务类别列表" type="className" value="swordselect-list-item"></locator>
+	<locator name="查询按钮" type="cssSelector" value="div[title='查询']"></locator>
+	<locator name="当前环节列表" type="xpath" value="//div[@row='true']/div[10]"></locator>
+	<locator name="处理列表" type="xpath" value="//div[@row='true']/div[23]"></locator>
+	<locator name="业务编号列表" type="xpath" value="//div[@row='true']/div[5]"></locator>
+	<locator name="处理详情内联框架" type="cssSelector" value="iframe[frameborder='no']"></locator>
+	<locator name="签收按钮" type="cssSelector" value="div[btnname='签收']"></locator>
+	<locator name="处理方式选择框" type="xpath" value="//*[@id='clyj']/div[17]/div[3]/div[2]/div/div/div/div/div[1]/table/tbody/tr/td[2]/div/input"></locator>
+	<locator name="处理方式列表" type="className" value="swordselect-list-item"></locator>
+	<locator name="处理意见输入框" type="xpath" value="//*[@id='clyj']/div[17]/div[18]/div[2]/div/div/div/div[1]/div/table/tbody/tr/td[2]/div/div/textarea"></locator>
+	<locator name="提交按钮" type="cssSelector" value="div[title='提交']"></locator>
+	<locator name="确定按钮" type="id" value="ymPrompt_btn_0"></locator>
+</page>
+
+	

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="点击处理页面">
+	<locator name="业务处理" type="cssSelector" value="a[code='20001']"></locator>
+	<locator name="待办事项" type="cssSelector" value="a[caption='待办事项']"></locator>
+	<locator name="业务处理内联框架" type="name" value="tabContent_待办事项"></locator>
+	<locator name="查询按钮" type="cssSelector" value="div[btnname='查询']"></locator>
+	<locator name="处理按钮" type="xpath" value="//div[@rownum='1']/div[23]"></locator>
+	<locator name="处理详情内联框架" type="cssSelector" value="iframe[frameborder='no']"></locator>
+	<locator name="签收按钮" type="cssSelector" value="div[btnname='签收']"></locator>
+	
+</page>
+
+	

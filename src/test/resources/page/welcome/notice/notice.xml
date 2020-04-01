@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="通知公告页面">
+	<locator name="欢迎页内联框架" type="name" value="tabContent_welcome.jsp"></locator>
+	<locator name="通知链接" type="cssSelector" value="a[title='近期热点政策问答新']"></locator>
+	<locator name="通知公告详情内联框架" type="xpath" value="//body[@class='warp']/div[9]/div[2]/div/div/div/iframe"></locator>
+	<locator name="通知标题" type="id" value="title"></locator>
+</page>
+
+	

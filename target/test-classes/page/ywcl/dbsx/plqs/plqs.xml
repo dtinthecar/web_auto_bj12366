@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="批量签收页面">
+	<locator name="业务处理" type="cssSelector" value="a[code='20001']"></locator>
+	<locator name="待办事项" type="cssSelector" value="a[caption='待办事项']"></locator>
+	<locator name="待办事项内联框架" type="name" value="tabContent_待办事项"></locator>
+	<locator name="批量签收按钮" type="cssSelector" value="div[title='批量签收']"></locator>
+	<locator name="工单勾选框" type="xpath" value="//div[@row='true']/div[1]"></locator>
+	<locator name="批量签收确认提示框" type="id" value="ym-window"></locator>
+	<locator name="批量签收确认按钮" type="id" value="ymPrompt_btn_0"></locator>
+	<locator name="批量签收取消按钮" type="id" value="ymPrompt_btn_1"></locator>
+	<locator name="工单数量" type="xpath" value="//div[@class='sGrid_console_div']/lable[9]"></locator>
+	<locator name="成功签收提示框" type="xpath" value="//*[@id='ym-ml']/div/div/div/div"></locator>
+</page>
+
+	

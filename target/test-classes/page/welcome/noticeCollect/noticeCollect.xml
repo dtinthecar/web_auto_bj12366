@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="通知公告收藏页面">
+	<locator name="欢迎页内联框架" type="name" value="tabContent_welcome.jsp"></locator>
+	<locator name="通知链接" type="cssSelector" value="a[title='近期热点政策问答新']"></locator>
+	<locator name="通知公告详情内联框架" type="xpath" value="//body[@class='warp']/div[9]/div[2]/div/div/div/iframe"></locator>
+	<locator name="收藏内联框架" type="xpath" value="//body[@class='warp']/div[11]/div[2]/div/div/div/iframe"></locator>
+	<locator name="收藏按钮" type="cssSelector" value="div[title='收藏']"></locator>
+    <locator name="收藏文件名称输入框" type="cssSelector" value="input[caption='收藏文件名称']"></locator>
+    <locator name="收藏目录名称选择框" type="cssSelector" value="input[value='1110000000000000002498']"></locator>
+    <locator name="保存按钮" type="cssSelector" value="div[title='保存']"></locator>
+    <locator name="收藏成功提示" type="xpath" value="//body[@class='warp']/div[11]/div[2]/div/div/div/div"></locator>
+</page>
+
+	

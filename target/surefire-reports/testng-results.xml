@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" total="27" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="744256" started-at="2020-03-31T08:31:42Z" finished-at="2020-03-31T08:44:06Z">
+    <groups>
+    </groups>
+    <test name="Xcsl_CxSave_Test" duration-ms="186483" started-at="2020-03-31T08:31:42Z" finished-at="2020-03-31T08:34:48Z">
+      <class name="testcase.ywsl.xcsl.save.cxSave.CxSaveTester">
+        <test-method status="PASS" signature="ywsl_xcsl_save_cxSave_failure_test_case(testcase.ywsl.xcsl.save.cxSave.YwslXcslSaveCxSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="ywsl_xcsl_save_cxSave_failure_test_case" duration-ms="29978" started-at="2020-03-31T16:31:44Z" data-provider="dp" finished-at="2020-03-31T16:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveCxSaveFailureData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=1, nsrpjdj=0, cxlx=请选择, fynr=自动化测试-cxnr, dfnr=自动化测试-cxjg, jjcd=紧急, tips=请选择查询类型]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_cxSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="afterMethod" is-config="true" duration-ms="1220" started-at="2020-03-31T16:32:14Z" finished-at="2020-03-31T16:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ywsl_xcsl_save_cxSave_failure_test_case(testcase.ywsl.xcsl.save.cxSave.YwslXcslSaveCxSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="ywsl_xcsl_save_cxSave_failure_test_case" duration-ms="31056" started-at="2020-03-31T16:32:15Z" data-provider="dp" finished-at="2020-03-31T16:32:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveCxSaveFailureData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=1, nsrpjdj=1, cxlx=涉税查询, fynr=, dfnr=自动化测试-cxjg, jjcd=一般, tips=字数不能超过1999且不为空
+]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for base.BaseTester$4@1601832
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for base.BaseTester$4@1601832
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:280)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:299)
+	at base.BaseTester.assertElementTextEquls(BaseTester.java:750)
+	at testcase.ywsl.xcsl.save.cxSave.CxSaveTester.ywsl_xcsl_save_cxSave_failure_test_case(CxSaveTester.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_cxSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="afterMethod" is-config="true" duration-ms="1353" started-at="2020-03-31T16:32:48Z" finished-at="2020-03-31T16:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ywsl_xcsl_save_cxSave_failure_test_case(testcase.ywsl.xcsl.save.cxSave.YwslXcslSaveCxSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="ywsl_xcsl_save_cxSave_failure_test_case" duration-ms="35477" started-at="2020-03-31T16:32:49Z" data-provider="dp" finished-at="2020-03-31T16:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveCxSaveFailureData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=1, nsrpjdj=2, cxlx=其他, fynr=自动化测试-cxnr, dfnr=, jjcd=急, tips=字数不能超过1999且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for base.BaseTester$4@16195cf
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for base.BaseTester$4@16195cf
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:280)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:299)
+	at base.BaseTester.assertElementTextEquls(BaseTester.java:750)
+	at testcase.ywsl.xcsl.save.cxSave.CxSaveTester.ywsl_xcsl_save_cxSave_failure_test_case(CxSaveTester.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_cxSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="afterMethod" is-config="true" duration-ms="1297" started-at="2020-03-31T16:33:25Z" finished-at="2020-03-31T16:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_cxSave_success_test_case(testcase.ywsl.xcsl.save.cxSave.YwslXcslSaveCxSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="ywsl_xcsl_save_cxSave_success_test_case" duration-ms="27577" started-at="2020-03-31T16:33:27Z" data-provider="dp" finished-at="2020-03-31T16:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveCxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=1, nsrpjdj=0, cxlx=发票查询, fynr=自动化测试-cxnr, dfnr=自动化测试-cxjg, jjcd=紧急, sfcyy=, sffj=, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_cxSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="afterMethod" is-config="true" duration-ms="1274" started-at="2020-03-31T16:33:54Z" finished-at="2020-03-31T16:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_cxSave_success_test_case(testcase.ywsl.xcsl.save.cxSave.YwslXcslSaveCxSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="ywsl_xcsl_save_cxSave_success_test_case" duration-ms="27571" started-at="2020-03-31T16:33:55Z" data-provider="dp" finished-at="2020-03-31T16:34:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveCxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=1, nsrpjdj=1, cxlx=涉税查询, fynr=自动化测试-cxnr, dfnr=自动化测试-cxjg, jjcd=一般, sfcyy=1, sffj=, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_cxSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="afterMethod" is-config="true" duration-ms="1149" started-at="2020-03-31T16:34:23Z" finished-at="2020-03-31T16:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_cxSave_success_test_case(testcase.ywsl.xcsl.save.cxSave.YwslXcslSaveCxSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="ywsl_xcsl_save_cxSave_success_test_case" duration-ms="22882" started-at="2020-03-31T16:34:24Z" data-provider="dp" finished-at="2020-03-31T16:34:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveCxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=1, nsrpjdj=2, cxlx=其他, fynr=自动化测试-cxnr, dfnr=自动化测试-cxjg, jjcd=急, sfcyy=, sffj=1, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_cxSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.cxSave.CxSaveTester@1c388c2]" name="afterMethod" is-config="true" duration-ms="1187" started-at="2020-03-31T16:34:47Z" finished-at="2020-03-31T16:34:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase.ywsl.xcsl.save.cxSave.CxSaveTester -->
+    </test> <!-- Xcsl_CxSave_Test -->
+    <test name="Xcsl_ZxSave_Test" duration-ms="278347" started-at="2020-03-31T08:34:48Z" finished-at="2020-03-31T08:39:27Z">
+      <class name="testcase.ywsl.xcsl.save.zxSave.ZxSaveTester">
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_failure_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_failure_test_case" duration-ms="22645" started-at="2020-03-31T16:34:49Z" data-provider="dp" finished-at="2020-03-31T16:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=0, bq=, wtlx=1, fynr=反映内容, dfnr=答复内容, xjlx=0, jjcd=紧急, sfcyy=, sffj=, tips=标签不能为空]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1146" started-at="2020-03-31T16:35:11Z" finished-at="2020-03-31T16:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_failure_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_failure_test_case" duration-ms="21318" started-at="2020-03-31T16:35:12Z" data-provider="dp" finished-at="2020-03-31T16:35:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=1, bq=1, wtlx=, fynr=反映内容, dfnr=答复内容, xjlx=0, jjcd=一般, sfcyy=, sffj=, tips=请选择匹配的问题类型内容]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1179" started-at="2020-03-31T16:35:34Z" finished-at="2020-03-31T16:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_failure_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_failure_test_case" duration-ms="29004" started-at="2020-03-31T16:35:35Z" data-provider="dp" finished-at="2020-03-31T16:36:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=1, bq=1, wtlx=1, fynr=反映内容, dfnr=, xjlx=0, jjcd=一般, sfcyy=, sffj=, tips=字数不能超过1999且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1165" started-at="2020-03-31T16:36:04Z" finished-at="2020-03-31T16:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_failure_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_failure_test_case" duration-ms="34590" started-at="2020-03-31T16:36:05Z" data-provider="dp" finished-at="2020-03-31T16:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=2, bq=1, wtlx=1, fynr=, dfnr=答复内容, xjlx=0, jjcd=一般, sfcyy=, sffj=1, tips=字数不能超过1999且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1174" started-at="2020-03-31T16:36:40Z" finished-at="2020-03-31T16:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_failure_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_failure_test_case" duration-ms="28444" started-at="2020-03-31T16:36:41Z" data-provider="dp" finished-at="2020-03-31T16:37:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=1, bq=1, wtlx=1, fynr=, dfnr=, xjlx=3, jjcd=急, sfcyy=, sffj=, tips=字数不能超过1999且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1196" started-at="2020-03-31T16:37:09Z" finished-at="2020-03-31T16:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_success_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_success_test_case" duration-ms="29679" started-at="2020-03-31T16:37:11Z" data-provider="dp" finished-at="2020-03-31T16:37:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=0, bq=增值税小微企业优惠, wtlx=税收基础知识, fynr=反映内容, dfnr=答复内容, xjlx=0, jjcd=紧急, sfcyy=, sffj=, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1215" started-at="2020-03-31T16:37:40Z" finished-at="2020-03-31T16:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_success_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_success_test_case" duration-ms="30979" started-at="2020-03-31T16:37:42Z" data-provider="dp" finished-at="2020-03-31T16:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=1, bq=增值税小微企业优惠, wtlx=税收基础知识, fynr=反映内容, dfnr=答复内容, xjlx=0, jjcd=一般, sfcyy=, sffj=, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1283" started-at="2020-03-31T16:38:13Z" finished-at="2020-03-31T16:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_success_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_success_test_case" duration-ms="38347" started-at="2020-03-31T16:38:14Z" data-provider="dp" finished-at="2020-03-31T16:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=2, bq=增值税小微企业优惠, wtlx=税收基础知识, fynr=反映内容, dfnr=答复内容, xjlx=0, jjcd=一般, sfcyy=, sffj=1, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1320" started-at="2020-03-31T16:38:52Z" finished-at="2020-03-31T16:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_zxSave_success_test_case(testcase.ywsl.xcsl.save.zxSave.YwslXcslSaveZxSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="ywsl_xcsl_save_zxSave_success_test_case" duration-ms="32139" started-at="2020-03-31T16:38:53Z" data-provider="dp" finished-at="2020-03-31T16:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveZxSaveSuccessData [dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=0, nsrpjdj=1, bq=增值税小微企业优惠, wtlx=税收基础知识, fynr=反映内容, dfnr=, xjlx=3, jjcd=急, sfcyy=, sffj=, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_zxSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.zxSave.ZxSaveTester@1816dde]" name="afterMethod" is-config="true" duration-ms="1163" started-at="2020-03-31T16:39:26Z" finished-at="2020-03-31T16:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcase.ywsl.xcsl.save.zxSave.ZxSaveTester -->
+    </test> <!-- Xcsl_ZxSave_Test -->
+    <test name="Xcsl_TsSave_Test" duration-ms="279253" started-at="2020-03-31T08:39:27Z" finished-at="2020-03-31T08:44:06Z">
+      <class name="testcase.ywsl.xcsl.save.tsSave.TsSaveTester">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="BeforeSuite" is-config="true" duration-ms="4998" started-at="2020-03-31T16:31:34Z" finished-at="2020-03-31T16:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="setCookie()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="setCookie" is-config="true" duration-ms="2902" started-at="2020-03-31T16:31:39Z" finished-at="2020-03-31T16:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCookie -->
+        <test-method status="FAIL" signature="ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_failure_test_case" duration-ms="23120" started-at="2020-03-31T16:39:27Z" data-provider="dp" finished-at="2020-03-31T16:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=0, jsfs=网络, xxly=大企业, smts=0, tslx=服务言行, btsrdwhgr=杭州戴尔, fynr=反映内容, jjcd=紧急, sfbm=0, sfcyy=, sffj=, tips=输入长度为1~24个且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for base.BaseTester$4@13bec6c
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for base.BaseTester$4@13bec6c
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:280)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:299)
+	at base.BaseTester.assertElementTextEquls(BaseTester.java:750)
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1169" started-at="2020-03-31T16:39:51Z" finished-at="2020-03-31T16:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_failure_test_case" duration-ms="28318" started-at="2020-03-31T16:39:52Z" data-provider="dp" finished-at="2020-03-31T16:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=1, jsfs=短信, xxly=纳税咨询, smts=0, tslx=服务质效, btsrdwhgr=杭州戴尔, fynr=反映内容, jjcd=一般, sfbm=1, sfcyy=1, sffj=, tips=联系电话不能为空]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for base.BaseTester$4@2d44f3
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for base.BaseTester$4@2d44f3
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:280)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:299)
+	at base.BaseTester.assertElementTextEquls(BaseTester.java:750)
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1160" started-at="2020-03-31T16:40:21Z" finished-at="2020-03-31T16:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_failure_test_case" duration-ms="24624" started-at="2020-03-31T16:40:22Z" data-provider="dp" finished-at="2020-03-31T16:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=2, jsfs=信函, xxly=其他部门, smts=0, tslx=, btsrdwhgr=杭州戴尔, fynr=反映内容, jjcd=一般, sfbm=0, sfcyy=, sffj=1, tips=请选择投诉类型]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1156" started-at="2020-03-31T16:40:46Z" finished-at="2020-03-31T16:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_failure_test_case" duration-ms="22809" started-at="2020-03-31T16:40:47Z" data-provider="dp" finished-at="2020-03-31T16:41:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=1, jsfs=信函, xxly=其他部门, smts=0, tslx=侵害权益, btsrdwhgr=, fynr=反映内容, jjcd=急, sfbm=1, sfcyy=, sffj=, tips=字数不能超过49且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for base.BaseTester$4@18c3646
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for base.BaseTester$4@18c3646
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:280)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:299)
+	at base.BaseTester.assertElementTextEquls(BaseTester.java:750)
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1180" started-at="2020-03-31T16:41:11Z" finished-at="2020-03-31T16:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_failure_test_case" duration-ms="23055" started-at="2020-03-31T16:41:12Z" data-provider="dp" finished-at="2020-03-31T16:41:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=1, jsfs=信函, xxly=其他部门, smts=0, tslx=侵害权益, btsrdwhgr=杭州戴尔, fynr=, jjcd=急, sfbm=1, sfcyy=, sffj=, tips=字数不能超过1999且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for base.BaseTester$4@dfb31d
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for base.BaseTester$4@dfb31d
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:280)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:299)
+	at base.BaseTester.assertElementTextEquls(BaseTester.java:750)
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1223" started-at="2020-03-31T16:41:36Z" finished-at="2020-03-31T16:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_failure_test_case" duration-ms="19990" started-at="2020-03-31T16:41:37Z" data-provider="dp" finished-at="2020-03-31T16:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=1, jsfs=信函, xxly=其他部门, smts=1, tslx=侵害权益, btsrdwhgr=, fynr=反映内容, jjcd=急, sfbm=1, sfcyy=, sffj=, tips=字数不能超过49且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for base.BaseTester$4@27f603
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for base.BaseTester$4@27f603
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:280)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:299)
+	at base.BaseTester.assertElementTextEquls(BaseTester.java:750)
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1143" started-at="2020-03-31T16:41:57Z" finished-at="2020-03-31T16:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_failure_test_case" duration-ms="15775" started-at="2020-03-31T16:41:58Z" data-provider="dp" finished-at="2020-03-31T16:42:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=, phone=, nsrsbh=, msgNumber=, czNumber=, address=, sfzNumber=, workPlace=, email=, ywlb=2, nsrpjdj=1, jsfs=信函, xxly=其他部门, smts=1, tslx=, btsrdwhgr=杭州戴尔, fynr=反映内容, jjcd=急, sfbm=1, sfcyy=, sffj=, tips=请选择投诉类型]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1201" started-at="2020-03-31T16:42:14Z" finished-at="2020-03-31T16:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveFailureData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_failure_test_case" duration-ms="21283" started-at="2020-03-31T16:42:15Z" data-provider="dp" finished-at="2020-03-31T16:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=, phone=, nsrsbh=, msgNumber=, czNumber=, address=, sfzNumber=, workPlace=, email=, ywlb=2, nsrpjdj=1, jsfs=信函, xxly=其他部门, smts=1, tslx=侵害权益, btsrdwhgr=杭州戴尔, fynr=, jjcd=急, sfbm=1, sfcyy=, sffj=, tips=字数不能超过1999且不为空]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timed out after 5 seconds waiting for base.BaseTester$4@13eed88
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for base.BaseTester$4@13eed88
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:280)
+	at base.BaseTester.getElementTextNotNull(BaseTester.java:299)
+	at base.BaseTester.assertElementTextEquls(BaseTester.java:750)
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_failure_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1176" started-at="2020-03-31T16:42:37Z" finished-at="2020-03-31T16:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_tsSave_success_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_success_test_case" duration-ms="19199" started-at="2020-03-31T16:42:38Z" data-provider="dp" finished-at="2020-03-31T16:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=0, jsfs=网络, xxly=大企业, smts=0, tslx=服务言行, btsrdwhgr=杭州戴尔, fynr=反映内容, jjcd=紧急, sfbm=0, sfcyy=, sffj=, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1155" started-at="2020-03-31T16:42:58Z" finished-at="2020-03-31T16:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_tsSave_success_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_success_test_case" duration-ms="23909" started-at="2020-03-31T16:42:59Z" data-provider="dp" finished-at="2020-03-31T16:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=1, jsfs=短信, xxly=纳税咨询, smts=0, tslx=服务质效, btsrdwhgr=杭州戴尔, fynr=反映内容, jjcd=一般, sfbm=1, sfcyy=1, sffj=, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1192" started-at="2020-03-31T16:43:23Z" finished-at="2020-03-31T16:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_tsSave_success_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_success_test_case" duration-ms="24030" started-at="2020-03-31T16:43:24Z" data-provider="dp" finished-at="2020-03-31T16:43:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=2, jsfs=信函, xxly=其他部门, smts=0, tslx=侵害权益, btsrdwhgr=杭州戴尔, fynr=反映内容, jjcd=一般, sfbm=0, sfcyy=, sffj=1, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1197" started-at="2020-03-31T16:43:48Z" finished-at="2020-03-31T16:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ywsl_xcsl_save_tsSave_success_test_case(testcase.ywsl.xcsl.save.tsSave.YwslXcslSaveTsSaveSuccessData)[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="ywsl_xcsl_save_tsSave_success_test_case" duration-ms="15783" started-at="2020-03-31T16:43:49Z" data-provider="dp" finished-at="2020-03-31T16:44:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YwslXcslSaveTsSaveSuccessData [Dwlx=1, yjgsd=北京市, ejgsd=市辖区, sjgsd=东城区, name=五柳先生, phone=13325811144, nsrsbh=332032655632365000, msgNumber=13325811144, czNumber=13325811144, address=东城区前门大街108号, sfzNumber=330521199810142614, workPlace=故宫博物院, email=626262626@qq.com, ywlb=2, nsrpjdj=1, jsfs=信函, xxly=其他部门, smts=1, tslx=侵害权益, btsrdwhgr=杭州戴尔, fynr=反映内容, jjcd=急, sfbm=1, sfcyy=, sffj=, tips=保存成功。]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ywsl_xcsl_save_tsSave_success_test_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterMethod" is-config="true" duration-ms="1163" started-at="2020-03-31T16:44:05Z" finished-at="2020-03-31T16:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcase.ywsl.xcsl.save.tsSave.TsSaveTester@733037]" name="afterSuite" is-config="true" duration-ms="11056" started-at="2020-03-31T16:44:06Z" finished-at="2020-03-31T16:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcase.ywsl.xcsl.save.tsSave.TsSaveTester -->
+    </test> <!-- Xcsl_TsSave_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

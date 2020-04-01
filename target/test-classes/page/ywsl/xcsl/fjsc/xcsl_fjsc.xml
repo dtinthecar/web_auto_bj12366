@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="现场受理附件上传">
+	<locator name="现场受理按钮" type="cssSelector" value="a[caption='现场受理']"></locator>
+	<locator name="现场受理内联框架" type="id" value="ifm_l"></locator>
+	<locator name="附件上传按钮" type="xpath" value="/html/body/div[5]/table/tbody/tr[48]/td/a[8]"></locator>
+	<locator name="附件上传内联框架" type="xpath" value="//body[@class='ccall']/div[7]/div[2]/div/div/div/iframe"></locator>
+	<locator name="附件上传" type="name" value="filename"></locator>
+	<locator name="开始上传按钮" type="id" value="idBtnupload"></locator>
+</page>
+
+	

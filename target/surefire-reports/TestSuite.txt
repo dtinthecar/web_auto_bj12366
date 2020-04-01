@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 767.144 s <<< FAILURE! - in TestSuite
+ywsl_xcsl_save_cxSave_failure_test_case(testcase.ywsl.xcsl.save.cxSave.CxSaveTester)  Time elapsed: 32.283 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 5 seconds waiting for base.BaseTester$4@1601832
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at testcase.ywsl.xcsl.save.cxSave.CxSaveTester.ywsl_xcsl_save_cxSave_failure_test_case(CxSaveTester.java:111)
+
+ywsl_xcsl_save_cxSave_failure_test_case(testcase.ywsl.xcsl.save.cxSave.CxSaveTester)  Time elapsed: 36.031 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 5 seconds waiting for base.BaseTester$4@16195cf
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at testcase.ywsl.xcsl.save.cxSave.CxSaveTester.ywsl_xcsl_save_cxSave_failure_test_case(CxSaveTester.java:111)
+
+ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.TsSaveTester)  Time elapsed: 23.606 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 5 seconds waiting for base.BaseTester$4@13bec6c
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+
+ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.TsSaveTester)  Time elapsed: 28.77 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 5 seconds waiting for base.BaseTester$4@2d44f3
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+
+ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.TsSaveTester)  Time elapsed: 23.292 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 5 seconds waiting for base.BaseTester$4@18c3646
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+
+ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.TsSaveTester)  Time elapsed: 23.523 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 5 seconds waiting for base.BaseTester$4@dfb31d
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+
+ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.TsSaveTester)  Time elapsed: 20.455 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 5 seconds waiting for base.BaseTester$4@27f603
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+
+ywsl_xcsl_save_tsSave_failure_test_case(testcase.ywsl.xcsl.save.tsSave.TsSaveTester)  Time elapsed: 21.757 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 5 seconds waiting for base.BaseTester$4@13eed88
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC201703061101', ip: '192.168.8.75', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:28666}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir12272_722766244}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 019fa8df6888836938fa42ac6f16cc66
+	at testcase.ywsl.xcsl.save.tsSave.TsSaveTester.ywsl_xcsl_save_tsSave_failure_test_case(TsSaveTester.java:143)
+

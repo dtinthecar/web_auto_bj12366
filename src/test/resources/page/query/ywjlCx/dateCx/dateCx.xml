@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page pageName="时间查询页面">
+	<locator name="综合查询" type="linkText" value="综合查询"></locator>
+	<locator name="业务记录查询" type="linkText" value="业务记录查询"></locator>
+	<locator name="业务记录查询内联框架" type="name" value="tabContent_业务记录查询"></locator>
+	<locator name="开始时间选择按钮" type="xpath" value="/html/body/div[3]/div[2]/div[2]/table[1]/tbody/tr[1]/td[1]/div[1]/div"></locator>
+	<locator name="开始时间日期" type="xpath" value="/html/body/div[19]/table[1]/tbody/tr[4]/td[5]"></locator>
+	<locator name="结束时间选择按钮" type="xpath" value="/html/body/div[3]/div[2]/div[2]/table[1]/tbody/tr[1]/td[2]/div[1]/div"></locator>
+	<locator name="结束时间日期" type="xpath" value="/html/body/div[19]/table[1]/tbody/tr[5]/td[6]"></locator>
+	<locator name="查询按钮" type="cssSelector" value="div[title='查询']"></locator>
+	<locator name="查询结果" type="xpath" value="//div[@row='true']/div[2]"></locator>
+</page>
+
+	
